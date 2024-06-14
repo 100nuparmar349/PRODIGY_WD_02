@@ -26,16 +26,11 @@ const min1= document.getElementById('min').innerText;
 const secon1=  document.getElementById('seconds').innerText;
 const cnt1=  document.getElementById('count').innerText;
 
-
-
 let newpara=document.createElement("div");
 cnts+=1;
-
-
 let cntstring=cnts;
 if(cnts<10){
 cntstring="0"+cnts;
-
 }
 
 
@@ -64,6 +59,7 @@ reset.addEventListener("click",function(){
   minute = 0; 
   second = 0; 
   count = 0;
+  cnts=0;
   show.innerHTML="";
  
 })
