@@ -1,0 +1,127 @@
+body{
+    display: grid;
+   place-items: center;
+   height: 100vh;
+   background-color: #a09595;
+/*    background-color: rgba(53, 53, 53, 0.1);*/
+   color: white;
+}
+section{
+    padding: 5px;
+    max-width: 350px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #343131;
+    border-radius: 10px;
+  
+    overflow: scroll;
+    box-shadow: 10px 11px 13px rgb(48, 47, 47);
+}
+section::-webkit-scrollbar {
+    display: none; /* Hide scroll bar for WebKit-based browsers */
+}
+.seconddown{
+    color: rgb(255, 10, 243);
+    font-size: 70px;
+    font-weight: 600;
+  margin-left: 10px;
+
+}
+
+
+.resetvalue div{
+    display: flex;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+/*.No{
+   color: white;
+}*/
+
+#show{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.number{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    padding: 10px;
+   }
+   .words{
+    color: rgb(245, 0, 229);
+   }
+
+   .resetvalue div .No{
+    color: white;
+
+ 
+
+   }
+   .button{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+   }
+  
+   .button a{
+    display: block;
+   
+    position: relative;
+    height: 50px;
+    width: 130px;
+   /* background: linear-gradient(15deg,#08f242,#fecc00,#8000ff,#12bcf3,#fe0000);*/
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    
+   
+   
+   margin-left: 10px;
+   
+    
+   }
+   .button a button{
+    height: 88%;
+    width: 96%;
+    
+    display: block;
+    background-color: #40ff00e1;
+    font-size: 16px;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    color: #f5f5f5;
+   }
+ /*  .button a:hover{
+    animation: animate 0.4s linear infinite;
+}
+@keyframes animate {
+    100%{
+        filter: hue-rotate(-360deg);
+    }
+    
+}*/
+.button a button:hover{
+    border: none;
+    background-color: blue;
+}
+.resetvalue div{
+    background-color: #111;
+    color: #08f242;
+}
